@@ -1,0 +1,451 @@
+/*Game On.net CSS Document*/
+
+/*Universal Style*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	background: #c2c2c2 url(../images/bg_gradient.png) repeat-x top;
+	font-family: arial, helvetica, sans-serif;
+}
+
+body a {
+	color: #044591;
+	text-decoration: none;
+}
+
+body a:hover {
+	color: #9e1c20;
+	text-decoration: underline;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 5px;
+	overflow: hidden;
+}
+
+/*---- Navigation Style ----*/
+#header {
+	background: #fff url(../images/gameon_logo.png) no-repeat 5px;
+	padding: 5px;
+	height: 40px;
+}
+
+#header h1 {
+	text-indent: -999999px;
+}
+
+#header a {
+	display: block;
+	height: 30px;	
+	width: 231px;
+}
+
+#nav ul {
+	background: url(../images/nav_bar.png) no-repeat;
+	height: 20px;
+	float: left;
+}
+
+#nav li {
+	list-style-type: none;
+	float: left;
+	width: 138px;
+}
+
+#search {
+	float: right;
+	padding-left: 50px;
+	width: 200px;
+}
+
+#search p {float: left;}
+
+#rss {padding-left: 10px;}
+
+#nav {
+	background-color: #cdcdcd;
+	height: 21px;
+	overflow: hidden;
+}
+
+/*Global Navigation Style*/
+#console a, #pc_mac a, #mobile a {
+	display: block;
+	height: 20px;	
+	width: 138px;
+	text-indent: -999999px;
+}
+
+/*Global Navigation Style - before mouse hovers object*/
+#console a:hover, #console_current {background: url(../images/nav_bar.png) no-repeat 0 -21px;}
+
+#pc_mac a:hover, #pc_mac_current {background: url(../images/nav_bar.png) no-repeat -138px -21px;}
+
+#mobile a:hover, #mobile_current {background: url(../images/nav_bar.png) no-repeat -276px -21px;}
+
+/*Breadcrumbs Style*/
+#breadcrumbs {
+	background-color: #fff;
+	font-size: 11px;
+	padding: 5px;
+}
+
+/*---- Content Style ----*/
+#content {margin: 5px;}
+
+#content h1 {
+	color: #fff;
+	font-size: 14px;
+}
+
+h3 {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#content p, tr {
+	font-size: 12px;
+	margin-bottom: 12px;
+}
+
+/*---- Outline Style ----*/
+#industry li {
+	margin: 12px 0 0 15px;
+	font-size: 12px;
+}
+
+#network li {
+	margin-bottom: 12px;
+	font-size: 12px;
+}
+
+#network_column1, #network_column2 {
+	width: 280px;
+	float: left;
+}
+
+#news li {
+	margin: 0 0 12px 15px;
+	font-size: 12px;
+}
+
+#network_column1 {padding-left: 15px;}
+
+.bullet_header {font-weight: bold;}
+
+/*---- Header Style ----*/
+#header_accessory, #header_release, #header_top_story, #header_technology, #header_facts, #header_news, #header_featured_accessory, #header_industry, #header_network, #header_spotlight, #header_games, #header_accessories, #header_calendar {
+	background-color: #4e4f4f;
+	height: 15px;
+	padding: 5px 10px;
+	color: #fff;
+	font-size: 14px;
+}
+
+#header_network {clear: both;}
+
+/*---- Image Link Style ----*/
+img {border: none;}
+
+/*---- Home Page Style ----*/
+/*Home - Column Style*/
+#home_column {
+	width: 630px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+#header_top_story, #top_story {
+	width: 610px;
+	float: left;
+}
+
+#top_story {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	padding: 10px;
+	margin-bottom: 5px;
+	min-height: 215px;
+}
+
+#top_story img {
+	float: left;
+	padding-right: 15px;
+}
+
+#top_story h1 {
+	color: #000;
+	font-size: 26px;
+	margin-bottom: 12px;
+}
+
+#box_facts {
+	width: 312px;
+	float: left;
+}
+
+#box_technology {
+	width: 313px;
+	margin-left: 5px;
+	float: left;
+}
+
+#box_facts img, #box_technology img {
+	float: left;
+	margin: 0 10px 10px 0;
+	clear: left;
+}
+
+#facts, #technology {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	padding: 10px;
+	margin-bottom: 5px;
+	min-height: 183px;
+}
+
+#network {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	padding: 10px;
+	overflow: hidden;
+	float: left;
+	width: 610px;
+	min-height: 148px;
+}
+
+/*Home - Sidebar Style*/
+#home_sidebar {
+	width: 312px;
+	padding-left: 5px;
+	overflow: hidden;
+}
+
+#header_featured_accessory, #featured_accessory, #header_industry, #industry {
+	width: 295px;
+	float: left;
+}
+
+#featured_accessory {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	padding: 10px 10px 18px;
+	margin-bottom: 5px;
+	min-height: 215px;
+}
+
+#featured_accessory h3 {
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+
+#industry {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	padding: 10px 10px 11px;
+	min-height: 380px;
+	float: left;
+}
+
+#industry h2 {
+	font-size: 14px;
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+}
+
+#events {margin-top: 28px;}
+
+/*---- Category Style ----*/
+/*Category - Sidebar Style*/
+#category_sidebar {
+	width: 315px;
+	float: left;
+	overflow: hidden;
+}
+
+#spotlight, #news {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	padding: 10px;
+	margin-bottom: 5px;
+	clear: left;
+}
+
+#news {min-height: 528px;}
+
+#spotlight {min-height: 90px;}
+
+#spotlight img {
+	float: left;
+	margin-right: 15px;
+}
+
+#spotlight h2 {font-size: 14px;}
+
+/*Category - Column Style*/
+#category_column {
+	width: 630px;
+	margin: 0 0 0 5px;
+	float: left;
+	overflow: hidden;
+}
+
+#games, #accessories, #calendar {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+#games {min-height: 285px;}
+
+#accessories {min-height: 150px;}
+
+#calendar {min-height: 142px;}
+
+/*Table Style*/
+.table_header {width: 610px;}
+
+th {
+	text-align: left;
+	border-bottom: 1px solid #000;
+	padding-bottom: 6px;
+}
+
+.list {
+	width: 610px;
+	border-collapse: collapse;
+}
+
+.table_number {font-weight: bold;}
+
+.highlight {
+	background-color: #ececec;
+	border-collapse: collapse;
+}
+
+.title {width: 240px;}
+
+.platform{width: 100px;}
+
+.publisher{width: 130px;}
+
+.genre{width: 110px;}
+
+td {padding: 6px 0 6px 0;}
+
+/*Accessory Style*/
+#box_column1, #box_column2, #box_column3 {
+	width: 195px;
+	float: left;
+}
+
+#box_column1, #box_column2 {margin-right: 12px;}
+
+/*Release Calendar Style*/
+#calendar {clear: both;
+	overflow: hidden;
+}
+
+#calendar h3 {
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+	width: 190px;
+}
+
+#month1, #month2 {
+	margin-right: 15px;
+	float: left;
+	font-size: 12px;
+	width: 190px;
+}
+
+#month3 {
+	float: left;
+	width: 190px;
+}
+
+#month1 li, #month2 li, #month3 li {
+	font-size: 12px;
+	padding-top: 12px;
+	list-style-type: none;
+}
+
+.date {float: right;}
+
+/*---- Article Style ----*/
+#article {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	border-top: 25px solid #4e4f4f;
+	width: 710px;
+	min-height: 390px;
+	padding: 10px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+#article h2 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+#article h3 {
+	font: italic 12px arial, helvetica, sans-serif;
+	margin-bottom: 5px;
+}
+
+#article img {
+	float: right;
+	margin-left: 10px;
+}
+
+/*---- Article - Sidebar Style ----*/
+#article_sidebar {
+	width: 195px;
+	float: left;
+	margin-left: 5px;
+}
+
+#header_accessory, #accessory, #header_release, #release {
+	width: 194px;
+	float: left;
+}
+
+#accessory, #release {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	padding: 10px;
+	margin-bottom: 5px;
+	height: 170px;
+}
+
+#accessory h3 {margin-top: 10px;}
+
+#release_month1 {
+	float: left;
+	font-size: 12px;
+	width: 190px;
+}
+
+#release_month1 li {
+	font-size: 12px;
+	padding-top: 12px;
+	list-style-type: none;
+}
+
+#release h3 {
+	border-bottom: 1px solid #000;
+	padding-bottom: 10px;
+}
+
+/*---- Footer Style ----*/
+#footer {
+	background: #fff url(../images/box_gradient.png) repeat-x bottom;
+	width: 930px;
+	padding: 0 10px 5px;
+	text-align: right;
+	margin-bottom: 20px;
+	float: left;
+}
+
+#footer p {border-top: 1px solid #000;}

@@ -1,0 +1,62 @@
+/*------------------------------------------------------------------
+[Links Stylesheet]
+
+Project:	JavaScript Application
+Version:	1.8
+Last change:	09/04/13 [modify comments, cleanup]
+Author: 	Franco Haley
+
+DIRECTORY
+	1. =NAVIGATION
+	2. =GALLERY
+	3. =BUTTONS
+-------------------------------------------------------------------*/
+
+/* ======= [NAVIGATION]
+========================================= */
+#logo a {
+	color: #000;
+	text-align: left;
+	display: block;
+	height: 102px;
+	width: 102px;
+	margin-top: 9px;
+}
+#nav li a:link, #nav li a:visited {
+	text-decoration: none;
+	color: #FFF;
+	background-color: #6585A7;
+	border: 3px solid #CCC;
+	display: block;
+}
+#nav li a:hover, #gallery img:hover {
+	text-decoration: none;
+	color: #000;
+	background-color: #CCC;
+	border: 3px solid #6585A7;
+}
+#nav li a:active {
+	text-decoration: none;
+	color: #FFF;
+	background-color: #184F8C;
+	border: 3px solid #FFF;
+}
+
+/* ======= [GALLERY]
+========================================= */
+
+#slideshow a {
+	display: inline-block;
+}
+
+#gallery img {border: 3px solid #CCC;}
+
+/* ======= [BUTTONS]
+========================================= */
+
+
+#previous a, #next a, #sendButton a {
+	color: #fff;
+	text-decoration: none;
+
+}

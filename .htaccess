@@ -1,0 +1,52 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+</IfModule>
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?francohaley\.com [NC]
+RewriteRule .* - [E=UPGRADE]
+    <IfModule mod_headers.c>
+        Header always set Content-Security-Policy "upgrade-insecure-requests;" env=UPGRADE
+    </IfModule>
+</IfModule>
+
+RewriteCond %{HTTP_REFERER} !^http://francohaley.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://francohaley.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.francohaley.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.francohaley.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://francohaley.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://francohaley.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.francohaley.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.francohaley.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ - [F,NC]
+
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 100.92.37.124
+deny from 159.65.4.6
+deny from 59.14.17.48
+deny from 43.157.180.116
+deny from 212.102.39.219
+deny from 46.148.206.226
+deny from 120.71.59.24
+deny from 182.44.9.147
+deny from 141.95.175.164
+deny from 178.33.107.250
+deny from 60.188.57.0
+deny from 100.92.39.0/25
+deny from 100.92.39.128/28
+deny from 100.92.39.144/30
+deny from 100.92.39.148/31
+deny from 100.92.39.150
+deny from 100.92.37.0/25
+deny from 100.92.37.128/28
+deny from 100.92.37.144/30
+deny from 100.92.37.148/31
+deny from 100.92.37.150
+deny from 57.129.4.123
+deny from 54.37.10.247
+deny from 51.75.162.18

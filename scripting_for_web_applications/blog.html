@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome1"><![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <!-- [META]
+================================================== -->
+        <meta charset="utf-8">
+        <title>Scripting for Web Applications | Franco Haley</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- [FAVICON]
+================================================== -->
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+
+
+        <!-- [STYLESHEET]
+================================================== -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/css3.css">
+        <link rel="stylesheet" href="css/links.css">
+
+        <!-- [MODERNIZR]
+================================================== -->
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <!-- [HEADER]
+================================================== -->        
+        <header>
+            <section class="container roof">
+                <section id="logo">
+                    <a href="index.html"><img src="img/fh-logo.png" alt="FH Logo" /></a>
+                </section>
+
+                <hgroup class="clearfix">
+                    <h1 class="align-left">Franco Haley</h1>
+                    <h2>Web Designer <span class="plus">&plus;</span> Developer</h2>
+                </hgroup>
+            </section><!-- end .container -->
+        </header>
+<!-- ================================= [END HEADER] -->
+
+        <!-- [CONTENT]
+================================================== -->
+        <section class="container clearfix">
+            <aside class="edge-ribbon-left align-left"></aside>
+
+            <section class="content align-left">
+                <section class="base-ribbon ir">
+                    <h2>JavaScript Web Application Showcase</h2>
+                </section><!-- end .base-ribbon -->
+                
+                <!-- [NAVIGATION]
+                ================================================== -->
+                <nav>
+                    <a class="button" href="index.html">Gallery</a>
+                    <a class="button" href="form.html">Form</a>
+                    <a class="button-disabled" href="#">Blog</a>
+                    <a class="button" href="carousel.html">Carousel</a>
+                    <a class="button" href="autocompleter.html">Autocompleter</a>
+                </nav>
+                
+                <!-- [APPLICATION]
+                ================================================== -->
+                <section class="application clearfix">
+                    <div class="title-patch">
+                        <h3>Blog</h3>
+                    </div><!-- end .title-patch -->
+                    
+                    <!-- [BLOG]
+                    ================================================== -->
+                    <div id="blog">
+                        <div id="content-nav">
+                            <ul>
+                                <li><a href="#" id="allpost" class="button">All Post</a></li>
+                                <li><a href="#" id="mikes-post" class="button">Mike's Post</a></li>
+                                <li id="postgroup">
+                                    <select id="post-limit">
+                                        <option value="3">3</option>
+                                        <option value="5">5</option>
+                                        <option value="10">10</option>
+                                    </select>
+                                </li>
+                                <li><input id="titleInput"/></li>
+                                <li><a href="#" id="searchBtn" class="button">Title Search</a></li>
+                            </ul>
+                        </div><!-- /content-nav -->
+                        
+                        <!-- AJAX Dynamic content here -->
+                        <div id="blog-context"><!-- dynamic text goes here --></div><!-- /blog-context -->              
+                    </div><!--/blog-->              
+                </section>
+                <!-- ================================= [END APPLICATION] -->
+
+                <section class="container-offset"></section>
+
+            </section>
+
+            <aside class="edge-ribbon-right align-right"></aside>
+        </section>
+<!-- ================================= [END CONTENT] -->
+
+        <!-- [FOOTER]
+================================================== -->
+        <footer>
+            <section class="container">
+                 <p>&copy; 2013 &nbsp; Franco Haley: Web Designer &plus; Developer</p>
+            </section><!-- end .container -->
+        </footer>
+<!-- ================================= [END FOOTER] -->
+        
+        <!-- [SCRIPTS]
+================================================== -->
+        <!-- ** TO SHOW A DEMO OF JAVASCRIPT, NO JQUERY NEEDED **
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script> 
+        -->
+
+        <script src="js/plugins.js"></script>
+        
+        <!-- ** MY CUSTOM LIBRARY ** -->
+        <script src="js/vendor/Jcoda-min.js"></script>       
+        <script src="js/blog.js"></script>
+<!-- ================================= [END SCRIPTS] -->
+
+        <!-- [ANALYTICS]
+================================================== -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-40685818-1');ga('send','pageview');
+        </script>
+<!-- ================================= [END ANALYTICS] -->
+    </body>
+</html>

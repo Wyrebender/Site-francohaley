@@ -1,0 +1,91 @@
+/*------------------------------------------------------------------
+[CSS3 Stylesheet]
+
+Project:	JavaScript Application
+Version:	1.0
+Last change:	09/15/13 [code generated (http://www.cssbuttongenerator.com/)]
+Author: 	Franco Haley
+-------------------------------------------------------------------*/
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d7dce0;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d7dce0;
+	box-shadow:inset 0px 1px 0px 0px #d7dce0;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #90a8db), color-stop(1, #182a52) );
+	background:-moz-linear-gradient( center top, #90a8db 5%, #182a52 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#90a8db', endColorstr='#182a52');
+	background-color:#90a8db;
+	-webkit-border-top-left-radius:42px;
+	-moz-border-radius-topleft:42px;
+	border-top-left-radius:42px;
+	-webkit-border-top-right-radius:42px;
+	-moz-border-radius-topright:42px;
+	border-top-right-radius:42px;
+	-webkit-border-bottom-right-radius:42px;
+	-moz-border-radius-bottomright:42px;
+	border-bottom-right-radius:42px;
+	-webkit-border-bottom-left-radius:42px;
+	-moz-border-radius-bottomleft:42px;
+	border-bottom-left-radius:42px;
+	text-indent:0;
+	border:1px solid #005cb8;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:130px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 2px 0px #000000;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #182a52), color-stop(1, #90a8db) );
+	background:-moz-linear-gradient( center top, #182a52 5%, #90a8db 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#182a52', endColorstr='#90a8db');
+	background-color:#182a52;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+
+.button-disabled {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ebebeb), color-stop(1, #b8b8b8) );
+	background:-moz-linear-gradient( center top, #ebebeb 5%, #b8b8b8 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebebeb', endColorstr='#b8b8b8');
+	background-color:#ebebeb;
+	-webkit-border-top-left-radius:42px;
+	-moz-border-radius-topleft:42px;
+	border-top-left-radius:42px;
+	-webkit-border-top-right-radius:42px;
+	-moz-border-radius-topright:42px;
+	border-top-right-radius:42px;
+	-webkit-border-bottom-right-radius:42px;
+	-moz-border-radius-bottomright:42px;
+	border-bottom-right-radius:42px;
+	-webkit-border-bottom-left-radius:42px;
+	-moz-border-radius-bottomleft:42px;
+	border-bottom-left-radius:42px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor: default;
+	color:#666666;
+	font-family:Arial Black;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	height:30px;
+	line-height:30px;
+	width:130px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}

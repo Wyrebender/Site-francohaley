@@ -1,0 +1,5 @@
+[21-Sep-2025 02:21:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/di86c57bko8x/public_html/scripting_for_web_applications/xhr/db_conn.php:10
+Stack trace:
+#0 /home/di86c57bko8x/public_html/scripting_for_web_applications/xhr/getposts.php(5): include()
+#1 {main}
+  thrown in /home/di86c57bko8x/public_html/scripting_for_web_applications/xhr/db_conn.php on line 10
