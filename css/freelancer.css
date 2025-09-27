@@ -95,11 +95,11 @@ header .intro-text .name {
   font-family: "Arial Black", Gadget, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 header .intro-text .skills {
-  font-size: 1.25em;
+  font-size: 2em;
   font-weight: 600;
 }
 
