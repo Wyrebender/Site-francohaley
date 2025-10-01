@@ -99,7 +99,7 @@ header .intro-text .name {
 }
 
 header .intro-text .skills {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 600;
 }
 
@@ -114,10 +114,6 @@ header .intro-text .skills {
 
   header .intro-text .name {
     font-size: 5em;
-  }
-
-  header .intro-text .skills {
-    font-size: 1.75em;
   }
 }
 
