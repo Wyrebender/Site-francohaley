@@ -107,6 +107,11 @@ header .intro-text .skills {
   color: #a5bcc5;
 }
 
+#about .btn-outline {
+    color: #122953;
+    border: solid 2px #122953;
+}
+
 @media (min-width: 768px) {
   header .container {
     padding: 200px 0 100px;
@@ -274,17 +279,12 @@ section.success {
 }
 
 #about .about-link a {
-  color: #262626;
+  color: #122953;
 }
 
 #about h2 {
   color: #122953;
 }
-
-#about hr {
-  border-top: 3px solid #122953;
-}
-
 #about p {
   color: #122953;
 }
